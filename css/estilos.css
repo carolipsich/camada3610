@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes tuercas {
+
+  0% {
+    transform: rotate(0deg);
+    }
+ 100% {
+    transform: rotate(360deg);
+  }
+}
+
+.tuerca {
+  font-size: 200px;
+  position: relative;
+  left: 25px;
+  }
+.tuercauno {
+  font-size: 80px;
+  position: relative;
+  left: 10px;
+  bottom: 40px;
+  }
+.tuercados {
+  font-size: 100px;
+  position: relative;
+  left: 220px;
+  bottom: 180px;
+  }
+.tuercatres {
+  font-size: 150px;
+  position: relative;
+  left: 40px;
+  bottom: 180px;
+  }
+.tuercacuatro {
+  font-size: 50px;
+  position: relative;
+  left: 200px;
+  bottom: 300px;
+  }
+
+.tuerca i {
+  animation-name: tuercas;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+    }
+.tuercauno i {
+  animation-name: tuercas;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+    }
+.tuercados i {
+  animation-name: tuercas;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+    }
+.tuercatres i {
+  animation-name: tuercas;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+    }
+.tuercacuatro i {
+  animation-name: tuercas;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+    }
